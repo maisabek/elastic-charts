@@ -1,0 +1,632 @@
+export const getMockESReponse = () => (
+  {
+    "took": 33,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 10000,
+        "relation": "gte"
+      },
+      "max_score": null,
+      "hits": []
+    },
+    "aggregations": {
+      "nested_scanSourceSubjectActions": {
+        "doc_count": 101951,
+        "combined_agg": {
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0,
+          "buckets": [
+            {
+              "key": 0,
+              "doc_count": 49191,
+              "combined_agg": {
+                "doc_count_error_upper_bound": 3,
+                "sum_other_doc_count": 140,
+                "buckets": [
+                  {
+                    "key": 0,
+                    "doc_count": 48764,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 48764
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 13,
+                    "doc_count": 54,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 54
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 3,
+                    "doc_count": 43,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 43
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 8,
+                    "doc_count": 35,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 35
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 6,
+                    "doc_count": 33,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 33
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 1,
+                    "doc_count": 31,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 31
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 14,
+                    "doc_count": 31,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 31
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 46,
+                    "doc_count": 23,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 23
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 16,
+                    "doc_count": 19,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 19
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 2,
+                    "doc_count": 18,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 0,
+                          "doc_count": 18
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key": 1,
+              "doc_count": 40696,
+              "combined_agg": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 11,
+                "buckets": [
+                  {
+                    "key": 0,
+                    "doc_count": 40608,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 40608
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 2,
+                    "doc_count": 31,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 31
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 3,
+                    "doc_count": 16,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 16
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 6,
+                    "doc_count": 7,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 7
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 18,
+                    "doc_count": 6,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 6
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 13,
+                    "doc_count": 5,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 5
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 11,
+                    "doc_count": 3,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 3
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 15,
+                    "doc_count": 3,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 3
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 16,
+                    "doc_count": 3,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 3
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 37,
+                    "doc_count": 3,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 1,
+                          "doc_count": 3
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key": 2,
+              "doc_count": 6195,
+              "combined_agg": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 3,
+                "buckets": [
+                  {
+                    "key": 0,
+                    "doc_count": 6144,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 6144
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 2,
+                    "doc_count": 19,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 19
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 3,
+                    "doc_count": 8,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 8
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 18,
+                    "doc_count": 7,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 7
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 6,
+                    "doc_count": 6,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 6
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 5,
+                    "doc_count": 3,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 3
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 16,
+                    "doc_count": 2,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 2
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 1,
+                    "doc_count": 1,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 1
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 4,
+                    "doc_count": 1,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 1
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 19,
+                    "doc_count": 1,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 2,
+                          "doc_count": 1
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key": 3,
+              "doc_count": 5869,
+              "combined_agg": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": 0,
+                    "doc_count": 5841,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 5841
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 3,
+                    "doc_count": 10,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 10
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 2,
+                    "doc_count": 6,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 6
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 16,
+                    "doc_count": 4,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 4
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 14,
+                    "doc_count": 2,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 2
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 18,
+                    "doc_count": 2,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 2
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 4,
+                    "doc_count": 1,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 1
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 11,
+                    "doc_count": 1,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 1
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 43,
+                    "doc_count": 1,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 1
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": 45,
+                    "doc_count": 1,
+                    "scanSourceSubjectActions.sentimentKindId_sub_agg": {
+                      "doc_count_error_upper_bound": 0,
+                      "sum_other_doc_count": 0,
+                      "buckets": [
+                        {
+                          "key": 3,
+                          "doc_count": 1
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+
+  );

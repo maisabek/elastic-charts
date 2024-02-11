@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "@elastic/charts/dist/theme_light.css";
+@import "@elastic/eui/dist/eui_theme_light.css";
+body{
+  background-color: rgb(244, 242, 242) !important;
+}

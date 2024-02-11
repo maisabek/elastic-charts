@@ -4,13 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { indexComponent } from 'src/react/index.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
+    indexComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
